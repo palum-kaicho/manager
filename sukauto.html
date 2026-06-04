@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gemaris マネージャーマニュアル</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:"Yu Gothic","Hiragino Sans",sans-serif;
+    background:#f5f6f8;
+    color:#333;
+    line-height:1.9;
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+header h1{
+    color:#d62828;
+    font-size:2.3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    color:#666;
+}
+
+.layout{
+    display:flex;
+    gap:25px;
+}
+
+.sidebar{
+    width:280px;
+    position:sticky;
+    top:20px;
+    height:fit-content;
+}
+
+.toc{
+    background:#ffffff;
+    border-radius:16px;
+    padding:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    border-top:5px solid #d62828;
+}
+
+.toc h3{
+    color:#d62828;
+    margin-bottom:15px;
+    font-size:1.2rem;
+}
+
+.toc a{
+    display:block;
+    text-decoration:none;
+    color:#444;
+    padding:10px 0;
+    transition:.2s;
+    border-bottom:1px solid #eee;
+}
+
+.toc a:hover{
+    color:#d62828;
+    transform:translateX(5px);
+}
+
+.content-area{
+    flex:1;
+}
+
+.section{
+    scroll-margin-top:20px;
+}
+
+details{
+    background:#fff;
+    margin-bottom:18px;
+    border-radius:16px;
+    overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+summary{
+    background:#fff5f5;
+    color:#d62828;
+    font-weight:bold;
+    font-size:1.15rem;
+    padding:18px 24px;
+    cursor:pointer;
+    list-style:none;
+    border-left:6px solid #d62828;
+}
+
+summary::-webkit-details-marker{
+    display:none;
+}
+
+.content{
+    padding:24px;
+}
+
+ul{
+    padding-left:24px;
+}
+
+li{
+    margin-bottom:14px;
+}
+
+.note{
+    background:#fff5f5;
+    border-left:5px solid #d62828;
+    padding:15px;
+    margin-top:18px;
+    border-radius:8px;
+}
+
+.quote{
+    background:#fafafa;
+    border-left:4px solid #999;
+    padding:12px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-style:italic;
+}
+
+.philosophy li{
+    font-weight:600;
+}
+
+footer{
+    text-align:center;
+    margin-top:30px;
+    padding:20px;
+    color:#888;
+}
+
+@media(max-width:900px){
+
+    .layout{
+        flex-direction:column;
+    }
+
+    .sidebar{
+        width:100%;
+        position:relative;
+        top:0;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+    <h1>Gemaris マネージャーマニュアル</h1>
+    <p>ライバー支援における基本方針と対応ガイド</p>
+</header>
+
+<div class="layout">
+
+    <aside class="sidebar">
+
+        <div class="toc">
+
+            <h3>目次</h3>
+
+            <a href="#sec1">1. ライバーとの連絡について</a>
+            <a href="#sec2">2. レスポンスについて</a>
+            <a href="#sec3">3. 担当ライバーとの距離感</a>
+            <a href="#sec4">4. 配信方針への関わり方</a>
+            <a href="#sec5">5. トラブル発生時</a>
+            <a href="#sec6">6. Gemarisが大切にしていること</a>
+
+        </div>
+
+    </aside>
+
+    <main class="content-area">
+
+        <details id="sec1" class="section" open>
+            <summary>1. ライバーとの連絡について</summary>
+
+            <div class="content">
+
+                <ul>
+                    <li>
+                        ライバーのマネジメントに関するやり取りは、
+                        過度な運営介入や監視と受け取られることを避けるため、
+                        原則として「マネージャー」と「担当ライバー」の
+                        1対1の環境でのやり取りを推奨しております。
+                    </li>
+
+                    <li>
+                        連絡手段については各マネージャーに一任します。
+                    </li>
+
+                    <li>
+                        例：LINE、Discord、その他SNSのDM等
+                    </li>
+
+                    <li>
+                        マネージャー個人で判断に迷う内容や対応方針に不安がある場合は、
+                        気軽にご相談ください。
+
+                        その際は「かいちょ」または「ひな」まで連絡してもらえたら、
+                        比較的早めにレスポンスできると思います。
+                    </li>
+                </ul>
+
+                <div class="note">
+                    ライバーさんの不信感を煽らないためにも、
+                    「一度確認してから回答しますね」と事前に伝えておくと安心です。
+                </div>
+
+            </div>
+        </details>
+
+        <details id="sec2" class="section">
+            <summary>2. レスポンスについて</summary>
+
+            <div class="content">
+
+                <ul>
+                    <li>
+                        レスポンスの遅れは、ライバーからの信頼低下につながる可能性があります。
+                    </li>
+
+                    <li>
+                        担当ライバーには事前に対応可能な時間帯や返信目安を共有しておくと、
+                        ライバーさんも安心できると思います。
+                    </li>
+
+                    <li>
+                        内容の確認や判断に時間を要する場合は、
+                        返信を放置せず一次返信を行いましょう。
+                    </li>
+                </ul>
+
+                <div class="quote">
+                    「確認しますので少々お待ちください」
+                </div>
+
+                <div class="quote">
+                    「内容を整理して回答しますので、少しお時間をください」
+                </div>
+
+            </div>
+        </details>
+
+        <details id="sec3" class="section">
+            <summary>3. 担当ライバーとの距離感について</summary>
+
+            <div class="content">
+
+                <ul>
+                    <li>
+                        マネージャーはライバーの活動を支援する立場ですが、
+                        プライベートへの過度な干渉は避けた方がよいでしょう。
+                    </li>
+
+                    <li>
+                        恋愛相談や私生活の相談を受けることもありますが、
+                        必要以上に踏み込まずライバー本人の意思を尊重してください。
+                    </li>
+
+                    <li>
+                        異性間のやり取りについては、
+                        第三者から見ても誤解を招かない距離感が大切です。
+                    </li>
+
+                </ul>
+
+            </div>
+        </details>
+
+        <details id="sec4" class="section">
+            <summary>4. 配信方針への関わり方</summary>
+
+            <div class="content">
+
+                <ul>
+
+                    <li>
+                        マネージャーはアドバイスや提案を行うことはできますが、
+                        配信内容や活動方針を強制する立場ではありません。
+                    </li>
+
+                    <li>
+                        最終的な判断はライバー本人が行うものとします。
+                    </li>
+
+                    <li>
+                        意見が異なる場合は押し切るのではなく、
+                        複数の選択肢を提示することを推奨します。
+                    </li>
+
+                </ul>
+
+            </div>
+        </details>
+
+        <details id="sec5" class="section">
+            <summary>5. トラブル発生時</summary>
+
+            <div class="content">
+
+                <ul>
+
+                    <li>
+                        ライバーとの認識違い、クレーム、揉め事などが発生した場合は、
+                        一人で抱え込まず気軽にスタッフへ相談してください。
+                    </li>
+
+                    <li>
+                        感情的なやり取りになった場合は、
+                        一度やり取りを中断し、スタッフへ相談してください。
+                    </li>
+
+                    <li>
+                        スクリーンショットやログなど、
+                        経緯が分かる資料は可能な範囲で保存しておくと後々役立ちます。
+                    </li>
+
+                </ul>
+
+            </div>
+        </details>
+
+        <details id="sec6" class="section">
+            <summary>6. Gemarisが大切にしていること</summary>
+
+            <div class="content">
+
+                <ul class="philosophy">
+
+                    <li>ライバーを管理するのではなく支援すること</li>
+
+                    <li>正解を押し付けるのではなく一緒に考えること</li>
+
+                    <li>数字だけではなく本人の目標を尊重すること</li>
+
+                    <li>長く活動を続けられる環境づくりを意識すること</li>
+
+                    <li>困ったら一人で抱え込まず相談すること</li>
+
+                </ul>
+
+            </div>
+        </details>
+
+    </main>
+
+</div>
+
+<footer>
+    © Gemaris Manager Manual
+</footer>
+
+</div>
+
+</body>
+</html>
